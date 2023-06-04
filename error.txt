@@ -12,3 +12,23 @@ maintained alternatives such as Vite (https://vitejs.dev/) instead.
 Add "@babel/plugin-proposal-private-property-in-object" to your
 devDependencies to work around this error. This will make this message
 go away.
+
+Este error indica que una de las dependencias de tu proyecto está importando el 
+paquete "@babel/plugin-proposal-private-property-in-object" sin declararlo en sus 
+propias dependencias. Esto puede funcionar actualmente porque el paquete ya está 
+presente en tu carpeta de "node_modules" por razones no relacionadas, pero podría 
+dejar de funcionar en cualquier momento.
+
+Para solucionar este error, debes agregar "@babel/plugin-proposal-private-property-in-object" a 
+las dependencias de desarrollo de tu proyecto. Puedes hacerlo ejecutando el siguiente comando 
+en la terminal dentro de la raíz de tu proyecto:
+
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+
+Esto agregará el paquete como una dependencia de desarrollo en tu archivo "package.json" y lo 
+instalará en tu carpeta de "node_modules". De esta manera, la dependencia que estaba importando 
+el paquete podrá encontrarlo correctamente en su propia carpeta de "node_modules" y el error 
+debería desaparecer.
+
+También se recomienda considerar el uso de herramientas más modernas como Vite en lugar 
+de create-react-app, ya que create-react-app ya no está siendo mantenido.
