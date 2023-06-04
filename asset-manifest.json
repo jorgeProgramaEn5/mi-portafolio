@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/mi-portafolio/static/css/main.6f5c7852.css",
+    "main.js": "/mi-portafolio/static/js/main.3dc94ad8.js",
+    "static/media/header720x720.png": "/mi-portafolio/static/media/header720x720.83887bf03e535381b2b2.png",
+    "static/media/bgBanner.png": "/mi-portafolio/static/media/bgBanner.718fad64abe636b14697.png",
+    "static/media/instagram.svg": "/mi-portafolio/static/media/instagram.f9d228c1cbb5edc0706aebd672fb769e.svg",
+    "index.html": "/mi-portafolio/index.html",
+    "static/media/twitter.svg": "/mi-portafolio/static/media/twitter.f573afd4ee70524f8c1816b085f94583.svg",
+    "static/media/linkedin.svg": "/mi-portafolio/static/media/linkedin.e1d176e65b3271b94f634a1a094bd9f6.svg",
+    "static/media/facebook.svg": "/mi-portafolio/static/media/facebook.34082cd87ee9398b19edd541204c2227.svg",
+    "main.6f5c7852.css.map": "/mi-portafolio/static/css/main.6f5c7852.css.map",
+    "main.3dc94ad8.js.map": "/mi-portafolio/static/js/main.3dc94ad8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f5c7852.css",
+    "static/js/main.3dc94ad8.js"
+  ]
+}
