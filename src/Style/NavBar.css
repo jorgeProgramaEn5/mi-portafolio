@@ -192,6 +192,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding-bottom: 10px;
     text-align: center;
     }
+
+    .logo-container {
+        width: 56px;
+        padding-top: 5px;
+        padding-right: 10px;
+    }
   
     .navbar-text {
         flex-direction: column-reverse;
