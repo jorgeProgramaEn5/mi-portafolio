@@ -51,7 +51,7 @@ const Banner = ()=>{
           <Row className='align-items-center'>
             <Col xs={12} md={6} xl={7}>
               <span className='tagline'>Welcome to my Portfolio</span>
-              <h1>{`I'm `}<span className='wrap'>{text}</span></h1>
+              <h1 className='text-rotate'>{`I'm `}<span className='wrap'>{text}</span></h1>
               <p className='p-text'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis 
                 ratione pariatur rem. Magni ad dolorem numquam mollitia ducimus eos 
