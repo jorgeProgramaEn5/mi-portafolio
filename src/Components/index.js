@@ -1,6 +1,6 @@
 import NavBar from "./NavBar";
 import Banner from "./Banner";
-// import Card from "./Card";
+import Skills from "./Skills";
 // import ListCard from "./ListCard";
 // import Texto from "./Texto";
 // import Footer from "./Footer";
@@ -9,7 +9,7 @@ import Banner from "./Banner";
 export {
     NavBar,
     Banner,
-//     Card,
+    Skills,
 //     ListCard,
 //     Texto,
 //     Footer,
