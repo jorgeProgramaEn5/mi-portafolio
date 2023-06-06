@@ -3,7 +3,7 @@ import '../Style/Skills.css'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Container, Col, Row } from 'react-bootstrap';
-import { met_1, met_2, met_3, met_4 } from '../Assets';
+import { meter1, meter2, meter3, color_sharp } from '../Assets';
 
 const Skills = () => {
     const responsive = {
@@ -36,19 +36,19 @@ const Skills = () => {
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia tempora velit minus aspernatur fugiat voluptates nulla quis dolorum perspiciatis dolorem eum maxime reiciendis, commodi ullam eius dicta? Ipsa, explicabo laboriosam.</p>
                         <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                             <div className='item'>
-                                <img src={met_1} alt="img_met" />
+                                <img src={meter1} alt="img_meter" />
                                 <h5>Web Development</h5>
                             </div>
                             <div className='item'>
-                                <img src={met_2} alt="img_met" />
+                                <img src={meter2} alt="img_meter" />
                                 <h5>Web Development</h5>
                             </div>
                             <div className='item'>
-                                <img src={met_3} alt="img_met" />
+                                <img src={meter3} alt="img_meter" />
                                 <h5>Web Development</h5>
                             </div>
                             <div className='item'>
-                                <img src={met_4} alt="img_met" />
+                                <img src={meter1} alt="img_meter" />
                                 <h5>Web Development</h5>
                             </div>
                         </Carousel>
@@ -56,6 +56,7 @@ const Skills = () => {
                 </Col>
             </Row>
         </Container>
+        {/* <img src={color_sharp} alt="sharp" className='background-img-left'/> */}
     </section>
   )
 }
