@@ -2,7 +2,7 @@ import NavBar from "./NavBar";
 import Banner from "./Banner";
 import Skills from "./Skills";
 import Projects from "./Projects";
-// import Texto from "./Texto";
+import ProjectCard from "./ProjectCard";
 // import Footer from "./Footer";
 // import Modal from "./Modal";
 
@@ -11,7 +11,7 @@ export {
     Banner,
     Skills,
     Projects,
-//     Texto,
+    ProjectCard,
 //     Footer,
 //     Modal
 }

@@ -1,4 +1,4 @@
-import {instagram, twitter, facebook, linkedin} from '../Assets';
+import {instagram, twitter, facebook, linkedin, project_img1, project_img2, project_img3} from '../Assets';
 
 export const socialMedia = [
   {
@@ -28,20 +28,24 @@ export const projects = [
     title: "embici",
     description: "mensager service whith bicycle",
     link: "https://www.bicicuba.com/",
+    imgUrl: project_img1
   },
   {
     title: "shop embici",
     description: "shoop of bicycle",
     link: "https://www.shoopofbicycle.com/",
+    imgUrl: project_img2
   },
   {
     title: "happiness",
     description: "talk about happiness",
     link: "https://www.happinescuba.com/",
+    imgUrl: project_img3
   },
   {
     title: "Corporative",
     description: "landing page corporative",
     link: "https://www.coorporativecuba.com/",
+    imgUrl: project_img1
   },
 ];
