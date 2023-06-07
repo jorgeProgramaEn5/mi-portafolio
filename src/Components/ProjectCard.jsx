@@ -1,5 +1,7 @@
 import React from 'react'
 import { Col } from 'react-bootstrap'
+import '../Style/Projects.css';
+
 
 function ProjectCard({title, description, imgUrl}) {
   return (

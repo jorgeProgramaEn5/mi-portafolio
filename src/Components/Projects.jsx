@@ -9,7 +9,7 @@ import ProjectCard from './ProjectCard'
 
 function Projects() {
   return (
-    <section className='projects'>
+    <section className='project'>
         <Container>
             <Row>
                 <Col>
@@ -21,18 +21,18 @@ function Projects() {
                     <TabContainer id="project-tabs" defaultActiveKey="first">
                         <Nav variant="pills" defaultActiveKey="/home">
                             <Nav.Item>
-                                <Nav.Link eventKey="first">Tab One</Nav.Link>
+                                <Nav.Link eventKey="first">One</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="second">Tab two</Nav.Link>
+                                <Nav.Link eventKey="second">Two</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="third">Tab Tree </Nav.Link>
+                                <Nav.Link eventKey="third">Tree</Nav.Link>
                             </Nav.Item>
                         </Nav>
                         <TabContent >
                             <TabPane eventKey="first">
-                                <Row>
+                                <Row className='container-items-nav'>
                                     {
                                         projects.map((project, index)=>{
                                             return (    
