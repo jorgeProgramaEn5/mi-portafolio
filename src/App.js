@@ -1,5 +1,5 @@
 import './Style/App.css';
-import { NavBar, Banner, Skills } from './Components';
+import { NavBar, Banner, Skills, Projects } from './Components';
 
 
 const App = ()=>{
@@ -8,6 +8,7 @@ const App = ()=>{
       <NavBar />
       <Banner />
       <Skills />
+      <Projects />
     </div>
   );
 }
