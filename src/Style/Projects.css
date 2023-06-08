@@ -176,12 +176,14 @@
         padding: 8px;
     }
 
- 
+    #project-tabs-tab-first {
+        height: 100%;
+    }
 }
 
 
 
 
-#project-tabs-tabpane-third {
+/* #project-tabs-tabpane-third {
     text-align: center;
-}
+} */

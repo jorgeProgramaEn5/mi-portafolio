@@ -22,7 +22,7 @@ function Projects() {
                     <TabContainer id="project-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className='nav-pills justify-content-center aling-items-center'>
                             <Nav.Item>
-                                <Nav.Link eventKey="first">All</Nav.Link>
+                                <Nav.Link eventKey="first"><span>All</span></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="second"><BiMoneyWithdraw className='icons-hidden' size={25}/><span className='span-hidden'>Personal</span></Nav.Link>
