@@ -1,15 +1,16 @@
 import React from 'react';
 import '../Style/Projects.css';
-import { projects } from '../Constant';
+import { projects, projectsPersonales, projectsBussiness } from '../Constant';
 import { Container, Row, Col, TabContainer, TabContent, TabPane } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import ProjectCard from './ProjectCard'
+import { BiMoneyWithdraw, BiBriefcaseAlt2 } from 'react-icons/bi';
 
 
 
 function Projects() {
   return (
-    <section className='project'>
+    <section className='project' id='projects'>
         <Container>
             <Row>
                 <Col>
@@ -19,15 +20,15 @@ function Projects() {
                         perferendis, non, magnam placeat unde quo.
                     </p>
                     <TabContainer id="project-tabs" defaultActiveKey="first">
-                        <Nav variant="pills" defaultActiveKey="/home">
+                        <Nav variant="pills" className='nav-pills justify-content-center aling-items-center'>
                             <Nav.Item>
-                                <Nav.Link eventKey="first">One</Nav.Link>
+                                <Nav.Link eventKey="first">All</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="second">Two</Nav.Link>
+                                <Nav.Link eventKey="second"><BiMoneyWithdraw className='icons-hidden' size={25}/><span className='span-hidden'>Personal</span></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="third">Tree</Nav.Link>
+                                <Nav.Link eventKey="third"><BiBriefcaseAlt2 className='icons-hidden' size={25}/><span className='span-hidden'>Business</span></Nav.Link>
                             </Nav.Item>
                         </Nav>
                         <TabContent >
@@ -44,8 +45,32 @@ function Projects() {
                                     }
                                 </Row>
                             </TabPane>
-                            <TabPane eventKey="second">Loren Iosu</TabPane>
-                            <TabPane eventKey="third">Loren Casuo</TabPane>
+                            <TabPane eventKey="second">
+                            <Row className='container-items-nav'>
+                                    {
+                                        projectsPersonales.map((project, index)=>{
+                                            return (    
+                                            <ProjectCard  
+                                                key={index}
+                                                {...project}
+                                            />
+                                        )})
+                                    }
+                                </Row>
+                            </TabPane>
+                            <TabPane eventKey="third">
+                            <Row className='container-items-nav'>
+                                    {
+                                        projectsBussiness.map((project, index)=>{
+                                            return (    
+                                            <ProjectCard  
+                                                key={index}
+                                                {...project}
+                                            />
+                                        )})
+                                    }
+                                </Row>
+                            </TabPane>
                         </TabContent>
                     </TabContainer>
                 </Col>

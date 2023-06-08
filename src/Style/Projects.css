@@ -1,5 +1,5 @@
 .project {
-    padding: 80px 0;
+    padding: 50px 0;
     position: relative;
     /* background-color: black; */
 }
@@ -63,6 +63,14 @@
 
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
+}
+
+
+/* hidden icons */
+
+.project .icons-hidden {
+    display: none;
+    color: #0000009a;
 }
 
 /* .project .nav.nav-pills .nav-link.active {
@@ -157,5 +165,23 @@
         width: 100%;
     }
 
+    .project .icons-hidden {
+        display: inline-block;
+    }
+    .project .span-hidden {
+        display: none;
+    }
+
+    .project .nav.nav-pills .nav-link {
+        padding: 8px;
+    }
+
  
+}
+
+
+
+
+#project-tabs-tabpane-third {
+    text-align: center;
 }

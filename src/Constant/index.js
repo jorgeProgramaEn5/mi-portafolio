@@ -42,10 +42,64 @@ export const projects = [
     link: "https://www.happinescuba.com/",
     imgUrl: project_img3
   },
+  // {
+  //   title: "Corporative",
+  //   description: "landing page corporative",
+  //   link: "https://www.coorporativecuba.com/",
+  //   imgUrl: project_img1
+  // },
+];
+
+export const projectsPersonales = [
+  {
+    title: "embici",
+    description: "mensager service whith bicycle",
+    link: "https://www.bicicuba.com/",
+    imgUrl: project_img1
+  },
+  // {
+  //   title: "shop embici",
+  //   description: "shoop of bicycle",
+  //   link: "https://www.shoopofbicycle.com/",
+  //   imgUrl: project_img2
+  // },
+  // {
+  //   title: "happiness",
+  //   description: "talk about happiness",
+  //   link: "https://www.happinescuba.com/",
+  //   imgUrl: project_img3
+  // },
+  // {
+  //   title: "Corporative",
+  //   description: "landing page corporative",
+  //   link: "https://www.coorporativecuba.com/",
+  //   imgUrl: project_img1
+  // },
+];
+
+export const projectsBussiness = [
+  // {
+  //   title: "embici",
+  //   description: "mensager service whith bicycle",
+  //   link: "https://www.bicicuba.com/",
+  //   imgUrl: project_img1
+  // },
+  // {
+  //   title: "shop embici",
+  //   description: "shoop of bicycle",
+  //   link: "https://www.shoopofbicycle.com/",
+  //   imgUrl: project_img2
+  // },
+  // {
+  //   title: "happiness",
+  //   description: "talk about happiness",
+  //   link: "https://www.happinescuba.com/",
+  //   imgUrl: project_img3
+  // },
   {
     title: "Corporative",
     description: "landing page corporative",
     link: "https://www.coorporativecuba.com/",
-    imgUrl: project_img1
+    imgUrl: project_img3
   },
 ];
