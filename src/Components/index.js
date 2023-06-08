@@ -3,7 +3,7 @@ import Banner from "./Banner";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import ProjectCard from "./ProjectCard";
-// import Footer from "./Footer";
+import Contact from "./Contact";
 // import Modal from "./Modal";
 
 export {
@@ -12,6 +12,6 @@ export {
     Skills,
     Projects,
     ProjectCard,
-//     Footer,
+    Contact,
 //     Modal
 }
