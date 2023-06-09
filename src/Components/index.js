@@ -4,7 +4,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import ProjectCard from "./ProjectCard";
 import Contact from "./Contact";
-// import Modal from "./Modal";
+import Footer from "./Footer";
 
 export {
     NavBar,
@@ -13,5 +13,5 @@ export {
     Projects,
     ProjectCard,
     Contact,
-//     Modal
+    Footer
 }
