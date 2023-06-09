@@ -104,6 +104,11 @@ span.navbar-text {
     z-index: 1;
 }
 
+.navbar-text button a {
+    color: rgb(255, 124, 62);
+    text-decoration: none;
+}
+
 .navbar-text button::before {
     content: "";
     width: 0%;
@@ -116,7 +121,7 @@ span.navbar-text {
     transition: 0.3s ease-in-out;
 }
 
-.navbar-text button:hover {
+.navbar-text button:hover a {
     color: #ffffff;
 }
 

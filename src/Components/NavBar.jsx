@@ -51,7 +51,7 @@ function BasicExample() {
               <a href="#!"><img src={instagram} alt="instagram" /></a>
               <a href="#!"><img src={twitter} alt="twitter" /></a>
             </div>
-            <button className='btn-connet' onClick={()=> console.log('connect')}><span>Let's Connect</span></button>
+            <button className='btn-connet'><span><a href="#contact">Let's Connect</a></span></button>
           </span>
         </Navbar.Collapse>
       </Container>
