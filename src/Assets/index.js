@@ -27,6 +27,11 @@ import project_img2 from "./project_img2.png";
 import project_img3 from "./project_img3.png";
 
 
+import close from "./close.svg";
+import menu from "./menu.svg";
+
+
+
 export {
   facebook,
   linkedin,
@@ -53,5 +58,7 @@ export {
   nav_icon3,
   project_img1,
   project_img2,
-  project_img3
+  project_img3,
+  close,
+  menu
 };

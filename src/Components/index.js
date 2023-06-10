@@ -1,4 +1,5 @@
 import NavBar from "./NavBar";
+import NavBarDos from "./NavBarDos";
 import Banner from "./Banner";
 import Skills from "./Skills";
 import Projects from "./Projects";
@@ -8,6 +9,7 @@ import Footer from "./Footer";
 
 export {
     NavBar,
+    NavBarDos,
     Banner,
     Skills,
     Projects,
