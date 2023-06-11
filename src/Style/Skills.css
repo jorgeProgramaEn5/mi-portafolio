@@ -4,11 +4,13 @@
 }
 
 .skill-bx {
-    background: rgb(121, 88, 215);
+    /* background: rgb(107, 86, 166); */
     border-radius: 64px;
     text-align: center;
     padding: 60px 50px;
     margin-top: -60px;
+    box-shadow: 5px 5px 10px #7a58d791;
+    background-color: #00000003;
 }
 
 .skill h2 {
@@ -17,7 +19,7 @@
 }
 
 .skill p {
-    color: #B8B8B8;
+    color: #515151;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -68,11 +70,8 @@
     }
 
     .skill-bx {
-        background: rgb(121, 88, 215);
-        border-radius: 64px;
         text-align: center;
         padding: 10px 15px;
-        margin-top: -60px;
     }
 
     .skill p {

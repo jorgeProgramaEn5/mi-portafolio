@@ -1,5 +1,5 @@
 import './Style/App.css';
-import { NavBar, NavBarDos, Banner, Skills, Projects, Contact, Footer } from './Components';
+import { NavBarDos, Banner, Skills, Projects, Contact, Footer } from './Components';
 
 
 const App = ()=>{

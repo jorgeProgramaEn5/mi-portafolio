@@ -4,10 +4,7 @@ import instagram from "./instagram.svg";
 import twitter from "./twitter.svg";
 import logo from "./logo.png";
 import header720x720 from "./header720x720.png";
-import met_1 from "./met_1.png";
-import met_2 from "./met_2.png";
-import met_3 from "./met_3.png";
-import met_4 from "./met_4.png";
+
 
 import arrow1 from "./arrow1.svg";
 import arrow2 from "./arrow2.svg";
@@ -19,6 +16,7 @@ import header_img from "./header_img.svg";
 import meter1 from "./meter1.svg";
 import meter2 from "./meter2.svg";
 import meter3 from "./meter3.svg";
+import meter4 from "./meter4.svg";
 import nav_icon1 from "./nav_icon1.svg";
 import nav_icon2 from "./nav_icon2.svg";
 import nav_icon3 from "./nav_icon3.svg";
@@ -39,10 +37,6 @@ export {
   twitter,
   logo,
   header720x720,
-  met_1,
-  met_2,
-  met_3,
-  met_4,
   arrow1,
   arrow2,
   color_sharp,
@@ -53,6 +47,7 @@ export {
   meter1,
   meter2,
   meter3,
+  meter4,
   nav_icon1,
   nav_icon2,
   nav_icon3,

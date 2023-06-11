@@ -3,7 +3,7 @@ import '../Style/Skills.css'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Container, Col, Row } from 'react-bootstrap';
-import { meter1, meter2, meter3 } from '../Assets';
+import { meter1, meter2, meter3, meter4 } from '../Assets';
 
 const Skills = () => {
     const responsive = {
@@ -48,7 +48,7 @@ const Skills = () => {
                                 <h5>Web Development</h5>
                             </div>
                             <div className='item'>
-                                <img src={meter1} alt="img_meter" />
+                                <img src={meter4} alt="img_meter" />
                                 <h5>Web Development</h5>
                             </div>
                         </Carousel>
