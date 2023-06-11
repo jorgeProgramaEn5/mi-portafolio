@@ -1,29 +1,57 @@
 import React from 'react';
 import {logo, close, menu} from '../Assets';
 import { navLinks } from '../Constant';
-import { useState } from 'react';
-
+import '../Style/NavBarDos.css';
+import { useEffect, useState } from 'react';
 
 const Navbar = () => {
+  
   const [toggle, setToggle] = useState(false);
+
+  const [activeLink, setActiveLink] = useState('home');
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(()=>{
+    const onScroll = ()=>{
+      if (window.scrollY > 50) {
+        setScrolled(true)
+      } else (
+        setScrolled(false)
+      )
+    }
+
+    window.addEventListener('scroll', onScroll);
+
+    return ()=> window.addEventListener('scroll', onScroll)
+  },[])
+
+  const onUpdateActiveLink = (value) => {
+    setActiveLink(value)
+  }
+
   return (
-    <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <img src={logo} alt='logo' className='w-[124px] h-[32px]'/>
-      <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
+    <nav className={`nav-container ${scrolled ? 'scrolled' : ''}`}>
+      <div className='img'>
+        <img src={logo} alt='logo'/>
+      </div>
+      <ul className='nav-ul'>
           {navLinks.map((nav, index)=>(
             <li
               key={nav.id}
-              className= {`font-poppins font-normal cursor-point text-[16px] 
-              ${index === navLinks.length -1 ? "mr-0" : "mr-10"} text-white`}
+              className= {`${index === navLinks.length -1 ? "mr-1" : "mr-6"}`}
             >
-              <a href={`#${nav.id}`}>
+              <a 
+                href={`#${nav.id}`}
+                className={activeLink === nav.id ? 'navbar-link' : '' } 
+                onClick={()=>onUpdateActiveLink(`${nav.id}`)}
+              >
                 {nav.title}
               </a>
             </li>
           ))}
       </ul>
 
-      <div className='sm:hidden flex flex-1 justify-end items-center'>
+      <div className='btn_toggle'>
         <img 
           src={toggle? close : menu} 
           alt="menu"
@@ -31,16 +59,18 @@ const Navbar = () => {
           onClick={()=> setToggle((prev)=>!prev)}
         />
 
-        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient 
-          absolute top-20 right-0 max-4 my-2 min-w-[140px] rounded-xl sidebar`}>
-            <ul className='list-none flex flex-col justify-end items-center flex-1'>
+        <div className={`${toggle ? 'mobile-nav' : 'hidden'}`}>
+            <ul>
               {navLinks.map((nav, index)=>(
               <li
                 key={nav.id}
-                className= {`font-poppins font-normal cursor-point text-[16px] 
-                ${index === navLinks.length -1 ? "mr-0" : "mb-4"} text-white`}
+                className= {`${index === navLinks.length -1 ? "mr-0" : "mb-4"} text-white`}
               >
-                <a href={`#${nav.id}`}>
+                <a 
+                  href={`#${nav.id}`}
+                  className={activeLink === nav.id ? 'navbar-link' : '' } 
+                  onClick={()=>onUpdateActiveLink(`${nav.id}`)}
+                >
                   {nav.title}
                 </a>
               </li>

@@ -33,8 +33,8 @@ const Skills = () => {
                 <Col>
                     <div className='skill-bx'>
                         <h2>Skills</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia tempora velit minus aspernatur fugiat voluptates nulla quis dolorum perspiciatis dolorem eum maxime reiciendis.</p>
-                        <Carousel responsive={responsive} infinite={true} className='skill-slider'>
+                        <p>Quia tempora velit minus aspernatur fugiat voluptates nulla quis dolorum perspiciatis dolorem eum maxime reiciendis.</p>
+                        <Carousel responsive={responsive} infinite={true} arrows={true} autoPlay={true} autoPlaySpeed={3000} className='skill-slider'>
                             <div className='item'>
                                 <img src={meter1} alt="img_meter" />
                                 <h5>Web Development</h5>
