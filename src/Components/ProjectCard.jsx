@@ -12,6 +12,7 @@ function ProjectCard({title, description, imgUrl}) {
             <div className='proj-txtx'>
                 <h4>{title}</h4>
                 <span>{description}</span>
+                <button><a href="#!" target='blank'>view more</a></button>
             </div>
         </div>
     </Col>
