@@ -53,6 +53,11 @@
 	align-items: center;
   }
 
+  .banner button a {
+	color: rgb(121, 88, 215);
+	text-decoration: none;
+  }
+
   .banner button svg {
 	font-size: 25px;
 	margin-left: 10px;
@@ -82,8 +87,8 @@
 	max-width: 200px;
 	height: 110px;
 	border-radius: 15px;
-	transform: translateY(-130px);
-	animation: updown 2s linear infinite;
+	transform: translateY(-50px);
+	/* animation: updown 2s linear infinite; */
 }
 
 .banner .target-container {

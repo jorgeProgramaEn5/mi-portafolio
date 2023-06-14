@@ -58,7 +58,7 @@ function Contact() {
     <section className='contact' id='contact'>
         <Container>
             <Row className='aling-items-center'>
-                <Col md={6}>
+                <Col md={6} className='imgContact'>
                     <img src={contact_img} alt="contact" />
                 </Col>
                 <Col md={6} className='contact-form'>
