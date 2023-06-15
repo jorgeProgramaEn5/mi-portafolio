@@ -1,0 +1,68 @@
+.container-skills {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.container-skills .progress {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: #000000;
+    background: rgb(117, 116, 116) linear-gradient(to right, transparent 50%, rgb(121, 88, 215) 0);
+}
+
+
+.container-skills .progress h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    z-index: 1;
+    font-weight: 500;
+}
+
+.container-skills .progress h3 span {
+    font-size: 0.65em;
+    font-weight: 400;
+}
+
+.container-skills .progress h4 {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2em;
+    z-index: 1;
+    font-weight: 500;
+    color: rgb(121, 88, 215);
+    text-transform: uppercase;
+}
+
+.container-skills .progress::before {
+    content: "";
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%; 
+}
+
+.container-skills .progress::after {
+    content: "";
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.container-skills .progress::before {
+    background: rgb(121, 88, 215);
+    transform: rotate(calc(((var(--i) - 50) * 0.01turn )));
+}
+
