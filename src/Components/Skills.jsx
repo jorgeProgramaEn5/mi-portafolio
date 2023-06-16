@@ -33,23 +33,36 @@ const Skills = () => {
                 <Col>
                     <div className='skill-bx'>
                         <h2>Skills</h2>
-                        <p>Quia tempora velit minus aspernatur fugiat voluptates nulla quis dolorum perspiciatis dolorem eum maxime reiciendis.</p>
+                        <p>
+                          I'm a front-end developer with experience in various tools and technologies. 
+                          My specialization lies in Next.js, React, and Figma technologies, although 
+                          I also have experience in other essential tools such as HTML, CSS, JavaScript, 
+                          Git, Bootstrap, and Tailwind.
+
+                          <span>
+                            I handle these tools with ease and use them to create attractive, responsive, 
+                            and functional websites and applications. As a developer, my goal is always to 
+                            provide high-quality solutions that exceed the expectations of my clients and 
+                            end-users.
+                          </span>
+                        </p>
+                       
                         <Carousel responsive={responsive} infinite={true} arrows={true} autoPlay={true} autoPlaySpeed={3000} className='skill-slider'>
                             <div className='item'>
                                 <img src={meter1} alt="img_meter" />
-                                <h5>Web Development</h5>
+                                <h5>Nextjs/React</h5>
                             </div>
                             <div className='item'>
                                 <img src={meter2} alt="img_meter" />
-                                <h5>Web Development</h5>
+                                <h5>JavaScript</h5>
                             </div>
                             <div className='item'>
                                 <img src={meter3} alt="img_meter" />
-                                <h5>Web Development</h5>
+                                <h5>HTML/CSS/Tailwind</h5>
                             </div>
                             <div className='item'>
                                 <img src={meter4} alt="img_meter" />
-                                <h5>Web Development</h5>
+                                <h5>Enthusiasm for learning</h5>
                             </div>
                         </Carousel>
                     </div>

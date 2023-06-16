@@ -1,26 +1,22 @@
-import {instagram, twitter, facebook, linkedin, project_img1, project_img2, project_img3, project_img4} from '../Assets';
+import {whastapp, twitter, linkedin, project_img1, project_img2, project_img3, project_img4} from '../Assets';
 
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
+    icon: whastapp,
+    link: "https://www.whastapp.com/",
   },
   {
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
   },
+  {
+    id: "social-media-3",
+    icon: twitter,
+    link: "https://www.twitter.com/",
+  },
+
 ];
 
 export const projects = [

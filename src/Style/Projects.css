@@ -11,7 +11,7 @@
 }
 
 .project p {
-    color: #B8B8B8;
+    color: #797979;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -190,6 +190,10 @@
         padding: 0px 15px 0px 15px;
         text-align: justify;
         width: 100%;
+    }
+
+    .project p span{
+        display: none;
     }
 
     .project .icons-hidden {

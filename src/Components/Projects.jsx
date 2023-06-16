@@ -17,9 +17,13 @@ function Projects() {
                     <h2>Projects</h2>
                     <p>
                         I've split my projects into two main categories: personal projects and contracted projects. My personal projects are where I get to explore 
-                        my own ideas and creative solutions without any restrictions. They come from my curiosity and passion for technology. On the other hand, my 
-                        contracted projects are the result of working with external clients and collaborators. In these projects, I have to adapt to their needs and 
-                        expectations while keeping my focus on quality and effectiveness.
+                        my own ideas and creative solutions without any restrictions. 
+                        
+                        <span>They come from my curiosity and passion for technology.</span> On the other hand, my 
+                        contracted projects are the result of working with external clients and collaborators. 
+                        
+                        <span>In these projects, I have to adapt to their needs and 
+                        expectations while keeping my focus on quality and effectiveness.</span>
                     </p>
                     <TabContainer id="project-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className='nav-pills justify-content-center aling-items-center'>

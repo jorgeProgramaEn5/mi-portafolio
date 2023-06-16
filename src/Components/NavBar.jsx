@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
-import { logo, linkedin, facebook, instagram, twitter } from '../Assets';
+import { logo, linkedin, whastapp, twitter } from '../Assets';
 import '../Style/NavBar.css';
 import { useEffect, useState } from 'react';
 
@@ -47,8 +47,7 @@ function BasicExample() {
           <span className='navbar-text'>
             <div className='social-icon'>
               <a href="#!"><img src={linkedin} alt="linkedin" /></a>
-              <a href="#!"><img src={facebook} alt="facebook" /></a>
-              <a href="#!"><img src={instagram} alt="instagram" /></a>
+              <a href="#!"><img src={whastapp} alt="instagram" /></a>
               <a href="#!"><img src={twitter} alt="twitter" /></a>
             </div>
             <button className='btn-connet'><span><a href="#contact">Let's Connect</a></span></button>

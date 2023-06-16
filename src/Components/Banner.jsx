@@ -58,9 +58,12 @@ const Banner = ()=>{
           <Col xs={12} md={6} xl={7}>
             <span className='tagline'>Welcome to my Portfolio</span>
             <h1 className='text-rotate'>{`I'm `}<span className='wrap'>{text}</span></h1>
-            <p className='p-text'>
+            <p className='p-text text-hidden-cell'>
               I'm an electrician who decided to quit my job to follow the dream of becoming a good 
-              app developer. More than just writing code, what I like is creating new and clever 
+              app developer.
+            </p>
+            <p className='p-text'>
+              More than just writing code, what I like is creating new and clever 
               solutions. I think my biggest strengths are my desire to keep learning and my determination 
               to try new things, even if they're outside of my comfort zone.
             </p>

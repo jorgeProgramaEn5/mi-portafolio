@@ -23,7 +23,7 @@
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin: 14px 0 75px 0;
+    margin: 14px 50px 75px 50px;
 }
 
 /* size carrousel */
@@ -75,9 +75,13 @@
     }
 
     .skill p {
-        margin: 14px 20px 35px 20px;
+        margin: 14px 5px 35px 5px;
         /* padding: 0px 20px 0px 20px; */
         text-align: justify;
+    }
+
+    .skill p span {
+        display: none;
     }
 
     /* .react-multiple-carousel__arrow {

@@ -201,6 +201,15 @@
 		font-weight: 500;
 	}
 
+	.banner .p-text {
+		text-align: justify;
+		margin: 5px;
+	}
+
+	.banner .text-hidden-cell {
+		display: none;
+	}
+
 	.banner button {
 		color: rgb(121, 88, 215);
 		font-weight: 600;
