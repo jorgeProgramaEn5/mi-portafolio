@@ -12,7 +12,7 @@ function Footer() {
             <Row> 
                 <Col className='footer-item'>
                     <div className='social-icon'>
-                        <a href='https:wa.me/qr/NHJVYGQLSFNNO1/'><img src={whastapp} alt="social_img" /></a>
+                        <a href='https://wa.me/+5359106524?text=Hola%20Jorge!%20Necesitamos%20de%20tus%20servicios'><img src={whastapp} alt="social_img" /></a>
                         <a href='#!'><img src={linkedin} alt="social_img" /></a>
                         <a href='#!'><img src={twitter} alt="social_img" /></a>
                     </div>
