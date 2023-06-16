@@ -3,7 +3,7 @@ import { Col } from 'react-bootstrap'
 import '../Style/Projects.css';
 
 
-function ProjectCard({title, description, imgUrl}) {
+function ProjectCard({title, description, imgUrl, link}) {
   return (
     <>
     <Col sm={6} md={4}>
@@ -12,7 +12,7 @@ function ProjectCard({title, description, imgUrl}) {
             <div className='proj-txtx'>
                 <h4>{title}</h4>
                 <span>{description}</span>
-                <button><a href="#!" target='blank'>view more</a></button>
+                <button><a href={link} target='blank'>view more</a></button>
             </div>
         </div>
     </Col>

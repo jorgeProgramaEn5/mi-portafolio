@@ -23,6 +23,7 @@ import nav_icon3 from "./nav_icon3.svg";
 import project_img1 from "./project_img1.png";
 import project_img2 from "./project_img2.png";
 import project_img3 from "./project_img3.png";
+import project_img4 from "./project_img4.png";
 
 
 import close from "./close.svg";
@@ -54,6 +55,7 @@ export {
   project_img1,
   project_img2,
   project_img3,
+  project_img4,
   close,
   menu
 };

@@ -46,7 +46,7 @@ function Projects() {
                                 </Row>
                             </TabPane>
                             <TabPane eventKey="second">
-                            <Row className='container-items-nav'>
+                                <Row className='container-items-nav'>
                                     {
                                         projectsPersonales.map((project, index)=>{
                                             return (    
@@ -59,7 +59,7 @@ function Projects() {
                                 </Row>
                             </TabPane>
                             <TabPane eventKey="third">
-                            <Row className='container-items-nav'>
+                                <Row className='container-items-nav'>
                                     {
                                         projectsBussiness.map((project, index)=>{
                                             return (    
