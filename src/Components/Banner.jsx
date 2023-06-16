@@ -67,7 +67,7 @@ const Banner = ()=>{
               solutions. I think my biggest strengths are my desire to keep learning and my determination 
               to try new things, even if they're outside of my comfort zone.
             </p>
-            <button className='btn-connect'><span><a href='#contact'>Let's Connect</a> <BsArrowRightCircle size={25} /></span></button>
+            <button className='btn-connect'><span><a href='https://wa.me/+5359106524?text=Hola%20Jorge!%20Necesitamos%20de%20tus%20servicios'>WhatsApp me</a> <BsArrowRightCircle size={25} /></span></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <div className='imgHeader'>
