@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mi-portafolio/static/css/main.d59516bd.css",
-    "main.js": "/mi-portafolio/static/js/main.42929a16.js",
+    "main.css": "/mi-portafolio/static/css/main.fff53bd3.css",
+    "main.js": "/mi-portafolio/static/js/main.885b4486.js",
     "static/media/project_img2.png": "/mi-portafolio/static/media/project_img2.50246b4de46c94c03dda.png",
     "static/media/color_sharp.png": "/mi-portafolio/static/media/color_sharp.bea361cfef80fefc2d1e.png",
     "static/media/color_sharp2.png": "/mi-portafolio/static/media/color_sharp2.c87586c6c2f549cb4aa6.png",
@@ -14,7 +14,7 @@
     "static/media/meter3.svg": "/mi-portafolio/static/media/meter3.3549e2efc9e61929b1e2431fa222a060.svg",
     "static/media/header_img.svg": "/mi-portafolio/static/media/header_img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/contact_img.svg": "/mi-portafolio/static/media/contact_img.3c34824e1b8e5bfe850c0ef0248ab574.svg",
-    "static/media/header720x720.png": "/mi-portafolio/static/media/header720x720.cc4d54fa429bc9739fa7.png",
+    "static/media/header720x720.png": "/mi-portafolio/static/media/header720x720.df8a7d3ac7a285b4a3f8.png",
     "static/media/footer_bg.png": "/mi-portafolio/static/media/footer_bg.7bd67c0f73571d0acc02.png",
     "static/media/logo.png": "/mi-portafolio/static/media/logo.25dcd36cf9ee14fee95e.png",
     "static/media/revicons.eot": "/mi-portafolio/static/media/revicons.a77de540a38981833f9e.eot",
@@ -31,11 +31,11 @@
     "static/media/arrow2.svg": "/mi-portafolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/mi-portafolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav_icon2.svg": "/mi-portafolio/static/media/nav_icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.d59516bd.css.map": "/mi-portafolio/static/css/main.d59516bd.css.map",
-    "main.42929a16.js.map": "/mi-portafolio/static/js/main.42929a16.js.map"
+    "main.fff53bd3.css.map": "/mi-portafolio/static/css/main.fff53bd3.css.map",
+    "main.885b4486.js.map": "/mi-portafolio/static/js/main.885b4486.js.map"
   },
   "entrypoints": [
-    "static/css/main.d59516bd.css",
-    "static/js/main.42929a16.js"
+    "static/css/main.fff53bd3.css",
+    "static/js/main.885b4486.js"
   ]
 }
