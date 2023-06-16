@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap');
+
 .nav-container {
     display: flex;
     position: fixed;
@@ -7,6 +9,7 @@
     width: 100vw;
     padding: 10px 15px;
     transition:  0.32s ease-in-out;
+	font-family: 'Playfair Display', sans-serif;
 }
 
 .nav-container .img {

@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap');
+
 .project {
     padding: 50px 0;
     position: relative;
-    /* background-color: black; */
+	font-family: 'Playfair Display', sans-serif;
 }
 
 .project h2 {

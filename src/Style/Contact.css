@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap');
+
 .contact {
     /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
     background-color: rgb(121, 88, 215);
     padding: 60px 0 20px 0;
+	font-family: 'Playfair Display', sans-serif;
 }
 
 .contact img {

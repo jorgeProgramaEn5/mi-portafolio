@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap');
+
 .skill {
     padding: 25px 0 50px 0;
     position: relative;
+	font-family: 'Playfair Display', sans-serif;
 }
 
 .skill-bx {
