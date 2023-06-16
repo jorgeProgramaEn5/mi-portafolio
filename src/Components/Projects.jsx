@@ -15,9 +15,11 @@ function Projects() {
             <Row>
                 <Col>
                     <h2>Projects</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium magni eum soluta 
-                        architecto suscipit ipsam nostrum dolore alias libero nemo possimus nobis vitae sapiente 
-                        perferendis, non, magnam placeat unde quo.
+                    <p>
+                        I've split my projects into two main categories: personal projects and contracted projects. My personal projects are where I get to explore 
+                        my own ideas and creative solutions without any restrictions. They come from my curiosity and passion for technology. On the other hand, my 
+                        contracted projects are the result of working with external clients and collaborators. In these projects, I have to adapt to their needs and 
+                        expectations while keeping my focus on quality and effectiveness.
                     </p>
                     <TabContainer id="project-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className='nav-pills justify-content-center aling-items-center'>
@@ -28,7 +30,7 @@ function Projects() {
                                 <Nav.Link eventKey="second"><BiMoneyWithdraw className='icons-hidden' size={25}/><span className='span-hidden'>Personal</span></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="third"><BiBriefcaseAlt2 className='icons-hidden' size={25}/><span className='span-hidden'>Business</span></Nav.Link>
+                                <Nav.Link eventKey="third"><BiBriefcaseAlt2 className='icons-hidden' size={25}/><span className='span-hidden'>Contracting</span></Nav.Link>
                             </Nav.Item>
                         </Nav>
                         <TabContent >

@@ -59,10 +59,10 @@ const Banner = ()=>{
             <span className='tagline'>Welcome to my Portfolio</span>
             <h1 className='text-rotate'>{`I'm `}<span className='wrap'>{text}</span></h1>
             <p className='p-text'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis 
-              ratione pariatur rem. Magni ad dolorem numquam mollitia ducimus eos 
-              porro reiciendis, explicabo neque aut rem! Natus dicta molestiae 
-              autem veniam.
+              I'm an electrician who decided to quit my job to follow the dream of becoming a good 
+              app developer. More than just writing code, what I like is creating new and clever 
+              solutions. I think my biggest strengths are my desire to keep learning and my determination 
+              to try new things, even if they're outside of my comfort zone.
             </p>
             <button className='btn-connect'><span><a href='#contact'>Let's Connect</a> <BsArrowRightCircle size={25} /></span></button>
           </Col>
