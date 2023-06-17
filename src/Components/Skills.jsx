@@ -49,19 +49,19 @@ const Skills = () => {
                        
                         <Carousel responsive={responsive} infinite={true} arrows={true} autoPlay={true} autoPlaySpeed={3000} className='skill-slider'>
                             <div className='item'>
-                                <img src={meter1} alt="img_meter" />
+                                <img src={meter1} alt="img_meter" loading="lazy"/>
                                 <h5>Nextjs/React</h5>
                             </div>
                             <div className='item'>
-                                <img src={meter2} alt="img_meter" />
+                                <img src={meter2} alt="img_meter" loading="lazy"/>
                                 <h5>JavaScript</h5>
                             </div>
                             <div className='item'>
-                                <img src={meter3} alt="img_meter" />
+                                <img src={meter3} alt="img_meter" loading="lazy"/>
                                 <h5>HTML/CSS/Tailwind</h5>
                             </div>
                             <div className='item'>
-                                <img src={meter4} alt="img_meter" />
+                                <img src={meter4} alt="img_meter" loading="lazy"/>
                                 <h5>Enthusiasm for learning</h5>
                             </div>
                         </Carousel>

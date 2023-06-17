@@ -71,7 +71,7 @@ const Banner = ()=>{
           </Col>
           <Col xs={12} md={6} xl={5}>
             <div className='imgHeader'>
-              <img src={header720x720} alt="Headder" />
+              <img src={header720x720} alt="Headder" loading="lazy"/>
             </div>
             <div className='target'>
               <div className='target-container'>

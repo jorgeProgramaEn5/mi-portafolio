@@ -59,7 +59,7 @@ function Contact() {
         <Container>
             <Row className='aling-items-center'>
                 <Col md={6} className='imgContact'>
-                    <img src={contact_img} alt="contact" />
+                    <img src={contact_img} alt="contact" loading="lazy"/>
                 </Col>
                 <Col md={6} className='contact-form'>
                     <h2>Get In Touch</h2>
