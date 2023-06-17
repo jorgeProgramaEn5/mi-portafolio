@@ -90,6 +90,14 @@
     padding-right: 4px !important;
 }
 
+.text-enable {
+    display: flex;
+}
+
+.text-desable {
+    display: none;
+}
+
 @media only screen and (max-width: 968px) {
     .contact h2 {
         font-size: 25px;
