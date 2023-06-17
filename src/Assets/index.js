@@ -7,10 +7,7 @@ import header720x720 from "./header720x720.png";
 
 import arrow1 from "./arrow1.svg";
 import arrow2 from "./arrow2.svg";
-import color_sharp from "./color_sharp.png";
-import color_sharp2 from "./color_sharp2.png";
 import contact_img from "./contact_img.svg";
-import footer_bg from "./footer_bg.png";
 import header_img from "./header_img.svg";
 import meter1 from "./meter1.svg";
 import meter2 from "./meter2.svg";
@@ -38,10 +35,7 @@ export {
   header720x720,
   arrow1,
   arrow2,
-  color_sharp,
-  color_sharp2,
   contact_img,
-  footer_bg,
   header_img,
   meter1,
   meter2,

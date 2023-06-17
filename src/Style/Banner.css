@@ -182,7 +182,7 @@
 
 @media only screen and (max-width: 576px) {
 	.banner {
-		background-image: url('../Assets/bgBannerCell.png');
+		/* background-image: url('../Assets/bgBannerCell.png'); */
 		background-position: center;
 		background-size: contain;
 		background-repeat: no-repeat;
