@@ -7,6 +7,7 @@ import ProjectCard from "./ProjectCard";
 import Contact from "./Contact";
 import SkillProgress from "./SkillProgress";
 import Footer from "./Footer";
+import ContactEmailjs from "./ContactEmailjs";
 
 export {
     NavBar,
@@ -17,5 +18,6 @@ export {
     ProjectCard,
     Contact,
     Footer,
-    SkillProgress
+    SkillProgress,
+    ContactEmailjs
 }
