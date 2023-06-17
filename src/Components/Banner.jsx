@@ -17,7 +17,7 @@ const Banner = ()=>{
 
   useEffect(() => {
 
-    const toRotate = ['Web Developer', 'Web Designer', 'Electrical Engineer'];
+    const toRotate = ['A Web Developer', 'A Web Designer', 'An Electrical Engineer'];
 
     const tick = () => {
       let i = loopNum % toRotate.length;
