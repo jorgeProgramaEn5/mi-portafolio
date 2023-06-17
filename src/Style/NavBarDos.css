@@ -7,6 +7,7 @@
     justify-content: space-between;
     background-color: rgb(121, 88, 215);
     width: 100vw;
+    max-height: 50vh;
     padding: 10px 15px;
     transition:  0.32s ease-in-out;
 	font-family: 'Playfair Display', sans-serif;
@@ -79,6 +80,22 @@
     opacity: 0.4;
 }
 
+@media only screen and (max-width: 430px) {
+    
+    .nav-container .img {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 730px) {
+    
+    .nav-container .img {
+        width: 30%;
+    }
+
+}
+
 @media only screen and (max-width: 968px) {
     .nav-ul {
         display: none;
@@ -89,7 +106,7 @@
     }
 
     .nav-container .img {
-        width: 50%;
+        width: 30%;
     }
 
     .nav-container .btn_toggle {

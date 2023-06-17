@@ -115,7 +115,10 @@
     }
 
     .imgContact {
-        text-align: end;
+        /* text-align: end; */
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
     }
 
 }
