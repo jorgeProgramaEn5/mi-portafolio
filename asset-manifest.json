@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/mi-portafolio/static/css/main.d52738c9.css",
-    "main.js": "/mi-portafolio/static/js/main.223b8fe7.js",
-    "static/media/project_img2.png": "/mi-portafolio/static/media/project_img2.884d4c7738a9b91cd2ae.png",
-    "static/media/project_img1.png": "/mi-portafolio/static/media/project_img1.06092ee91eae54c70336.png",
-    "static/media/project_img3.png": "/mi-portafolio/static/media/project_img3.e0e92283a4071b0bee44.png",
+    "main.js": "/mi-portafolio/static/js/main.62c98edb.js",
+    "static/media/project_img2.png": "/mi-portafolio/static/media/project_img2.4069a4757005b5adf443.png",
     "static/media/meter2.svg": "/mi-portafolio/static/media/meter2.6584e3fe9ac2f8f46690ca3e4288ed99.svg",
     "static/media/meter4.svg": "/mi-portafolio/static/media/meter4.9a7511327341e60aab59a16433695d84.svg",
     "static/media/meter1.svg": "/mi-portafolio/static/media/meter1.2576964d86fe990ad4c98fa056023cfb.svg",
     "static/media/meter3.svg": "/mi-portafolio/static/media/meter3.3549e2efc9e61929b1e2431fa222a060.svg",
     "static/media/header_img.svg": "/mi-portafolio/static/media/header_img.84bf93eb20488a753440bf83d27db7bb.svg",
-    "static/media/project_img4.png": "/mi-portafolio/static/media/project_img4.13d0b14d52691a4d861b.png",
+    "static/media/project_img1.png": "/mi-portafolio/static/media/project_img1.0ec9796bb88350a528ce.png",
+    "static/media/project_img4.png": "/mi-portafolio/static/media/project_img4.fef7e7d0153dd419ae7b.png",
+    "static/media/project_img3.png": "/mi-portafolio/static/media/project_img3.4af5b66940edf946609b.png",
     "static/media/contact_img.svg": "/mi-portafolio/static/media/contact_img.3c34824e1b8e5bfe850c0ef0248ab574.svg",
     "static/media/header720x720.png": "/mi-portafolio/static/media/header720x720.df8a7d3ac7a285b4a3f8.png",
     "static/media/logo.png": "/mi-portafolio/static/media/logo.25dcd36cf9ee14fee95e.png",
@@ -29,10 +29,10 @@
     "static/media/arrow1.svg": "/mi-portafolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav_icon2.svg": "/mi-portafolio/static/media/nav_icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.d52738c9.css.map": "/mi-portafolio/static/css/main.d52738c9.css.map",
-    "main.223b8fe7.js.map": "/mi-portafolio/static/js/main.223b8fe7.js.map"
+    "main.62c98edb.js.map": "/mi-portafolio/static/js/main.62c98edb.js.map"
   },
   "entrypoints": [
     "static/css/main.d52738c9.css",
-    "static/js/main.223b8fe7.js"
+    "static/js/main.62c98edb.js"
   ]
 }
