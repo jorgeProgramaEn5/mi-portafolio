@@ -26,6 +26,8 @@ function Contact() {
         }, (error) => {
             console.log(error.text);
             setButtonText("Ups! Something went wrong")
+            setButtonTextDesable("text-desable")
+            setButtonTextEnable("text-enable")
         });
     };
   
@@ -58,7 +60,7 @@ function Contact() {
     
                                 <Col className='col-text-area'>
                                     <textarea style={{ resize: "none" }} name="message" row="6" placeholder='Message' required></textarea>
-                                    <input type="submit" value="send" className={buttonTextDesable}/>
+                                    <input type="submit" value={buttonText} className={buttonTextDesable} onClick={()=>setButtonText("Sending...")}/>
                                     <input type="submit" value={buttonText} className={buttonTextEnable} disabled/>
                                 </Col>
                             </Row>
