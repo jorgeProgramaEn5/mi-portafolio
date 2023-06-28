@@ -20,7 +20,7 @@
 .nav-ul {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
     list-style: none;
 }
 
