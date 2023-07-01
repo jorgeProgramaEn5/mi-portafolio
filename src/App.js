@@ -1,4 +1,4 @@
-import './Style/App.css';
+import './App.css';
 import { NavBarDos, Banner, Skills, Projects, ContactEmailjs, Footer } from './Components';
 
 
